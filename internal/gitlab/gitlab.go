@@ -752,9 +752,9 @@ func ProjectList(opts gitlab.ListProjectsOptions, n int) ([]*gitlab.Project, err
 	return list, nil
 }
 
-// NamespaceSearch searches for a namespace on GitLab
-func NamespaceSearch(query string) ([]*gitlab.Namespace, error) {
-	list, _, err := lab.Namespaces.SearchNamespace(query)
+// GroupSearch searches for a namespace on GitLab
+func GroupSearch(query string) ([]*gitlab.Group, error) {
+	list, _, err := lab.Groups.SearchGroup(query)
 	if err != nil {
 		return nil, err
 	}

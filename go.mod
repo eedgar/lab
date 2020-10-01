@@ -20,8 +20,10 @@ require (
 	github.com/spf13/viper v1.4.0
 	github.com/stretchr/testify v1.4.0
 	github.com/tcnksm/go-gitconfig v0.1.2
+	github.com/wadey/gocovmerge v0.0.0-20160331181800-b5bfa59ec0ad // indirect
 	github.com/xanzy/go-gitlab v0.33.1-0.20200713191942-71ea998bed24
-	golang.org/x/crypto v0.0.0-20200302210943-78000ba7a073
+	golang.org/x/crypto v0.0.0-20200622213623-75b288015ac9
+	golang.org/x/tools v0.0.0-20200930213115-e57f6d466a48 // indirect
 )
 
 go 1.13
