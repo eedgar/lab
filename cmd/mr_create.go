@@ -217,7 +217,7 @@ func runMRCreate(cmd *cobra.Command, args []string) {
 		RemoveSourceBranch: &removeSourceBranch,
 		Squash:             &squash,
 		AllowCollaboration: &allowCollaboration,
-		Labels:             lab.Labels(labels),
+		Labels:             gitlab.Labels(labels),
 		MilestoneID:        milestone,
 	})
 	if err != nil {
